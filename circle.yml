@@ -1,0 +1,7 @@
+general:
+  artifacts:
+    - reports
+
+machine:
+  node:
+    version: 6.9.1

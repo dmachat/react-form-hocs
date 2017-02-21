@@ -1,0 +1,14 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "globals": {
+    "React": true,
+  },
+  "env": {
+    "mocha": true
+  },
+  "rules": {
+    "jsx-quotes": [2, "prefer-single"],
+    "new-cap": [0],
+  },
+}

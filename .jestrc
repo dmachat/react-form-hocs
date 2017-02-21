@@ -1,0 +1,35 @@
+{
+  "setupFiles": [
+    "<rootDir>/__test__/jestGlobals.js"
+  ],
+  "moduleFileExtensions": [
+    "js",
+    "jsx",
+    "json"
+  ],
+  "moduleDirectories": [
+    "<rootDir>",
+    "node_modules",
+    "src"
+  ],
+  "coverageDirectory": "<rootDir>/reports",
+  "testEnvironment": "jsdom",
+  "moduleNameMapper": {
+    "^.+\\.(ico!jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+    "^.+\\.css$": "identity-obj-proxy",
+    "^sourceImages([^.]+$|\\.(?!(svg|ico)$)([^.]+$))": "<rootDir>/src/assets/img$1",
+    "brand": "<rootDir>/config/brand"
+  },
+  "transformIgnorePatterns": [
+    "/node_modules/"
+  ],
+  "verbose": true,
+  "coverageThreshold": {
+    "global": {
+      "branches": 0,
+      "functions": 0,
+      "lines": 0,
+      "statements": 0
+    }
+  }
+}
